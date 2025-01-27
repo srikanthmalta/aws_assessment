@@ -40,7 +40,8 @@ resource "aws_subnet" "private_subnets" {
     }
   )
 }
-/*
+
+
 # 5.1.5 - Create Auto Scaling Group
 resource "aws_launch_configuration" "webserver_lc" {
   name          = "webserver-launch-configuration"
@@ -65,6 +66,6 @@ resource "aws_autoscaling_group" "webserver_asg" {
     aws_subnet.subnet_b.id
   ]
 }
-*/
+
 
 
